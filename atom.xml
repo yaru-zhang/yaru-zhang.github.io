@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-01T08:53:37.914Z</updated>
+  <updated>2023-05-01T10:20:56.897Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,18 +21,19 @@
     <link href="http://example.com/2023/05/01/my-first-blog/"/>
     <id>http://example.com/2023/05/01/my-first-blog/</id>
     <published>2023-05-01T08:53:37.913Z</published>
-    <updated>2023-05-01T08:53:37.914Z</updated>
+    <updated>2023-05-01T10:20:56.897Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="我的第一个博客"><a href="#我的第一个博客" class="headerlink" title="我的第一个博客"></a>我的第一个博客</h1><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">new</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>在心率管家默默无闻地上线了一年多之后，现在终于打算来好好聊聊关于手机摄像头测量心率的那些事。本文参考了很多前辈的文章，将在文末列出。</p><span id="more"></span><h2 id="emoji表情"><a href="#emoji表情" class="headerlink" title="emoji表情"></a>emoji表情</h2><span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/爱你.gif"/></span><span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatrainbow.png"/></span><span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png"/></span><span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/cdn-x/emoji/tieba/滑稽.png"/></span><h2 id="markdown行内文本标记"><a href="#markdown行内文本标记" class="headerlink" title="markdown行内文本标记"></a>markdown行内文本标记</h2><p>支持多彩标记，包括：<mark class="tag-plugin mark" color="dark">默认</mark> <mark class="tag-plugin mark" color="red">红</mark> <mark class="tag-plugin mark" color="orange">橙</mark> <mark class="tag-plugin mark" color="yellow">黄</mark> <mark class="tag-plugin mark" color="green">绿</mark> <mark class="tag-plugin mark" color="cyan">青</mark> <mark class="tag-plugin mark" color="blue">蓝</mark> <mark class="tag-plugin mark" color="purple">紫</mark> <mark class="tag-plugin mark" color="light">浅</mark> <mark class="tag-plugin mark" color="dark">深</mark> <mark class="tag-plugin mark" color="warning">警告</mark> <mark class="tag-plugin mark" color="error">错误</mark> 一共 12 种颜色。</p><h2 id="tag标签"><a href="#tag标签" class="headerlink" title="tag标签"></a>tag标签</h2><a class="tag-plugin tag" color="yellow" href="https://xaoxuu.com/wiki/stellar/">Stellar</a><a class="tag-plugin tag" color="yellow" href="https://hexo.io/">Hexo</a><a class="tag-plugin tag" color="yellow" href="https://github.com/xaoxuu/">GitHub</a><a class="tag-plugin tag" color="green" href="https://git.xaoxuu.com/">Gitea</a><h2 id="poetry诗词"><a href="#poetry诗词" class="headerlink" title="poetry诗词"></a>poetry诗词</h2><div class="tag-plugin poetry"><div class="content"><div class="title">游山西村</div><div class="meta"><span>陆游</span></div><div class="body"><p>莫笑农家腊酒浑，丰年留客足鸡豚。<br><strong>山重水复疑无路，柳暗花明又一村。</strong><br>箫鼓追随春社近，衣冠简朴古风存。<br>从今若许闲乘月，拄杖无时夜叩门。</p></div><div class="footer">诗词节选</div></div></div><h2 id="分栏容器"><a href="#分栏容器" class="headerlink" title="分栏容器"></a>分栏容器</h2><div class="tag-plugin tabs" align="center"id="tab_1"><div class="nav-tabs"><div class="tab"><a href="#tab_1-1">代码块</a></div><div class="tab active"><a href="#tab_1-2">表格</a></div></div><div class="tab-content"><div class="tab-pane" id="tab_1-1"><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> x <span class="operator">=</span> <span class="number">123</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="tab_1-2"><table><thead><tr><th>a</th><th>b</th><th>c</th></tr></thead><tbody><tr><td>a1</td><td>b1</td><td>c1</td></tr><tr><td>a2</td><td>b2</td><td>c2</td></tr></tbody></table></div></div></div><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">new</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h1 id=&quot;我的第一个博客&quot;&gt;&lt;a href=&quot;#我的第一个博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一个博客&quot;&gt;&lt;/a&gt;我的第一个博客&lt;/h1&gt;&lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测</summary>
-      
+    <summary type="html">&lt;p&gt;在心率管家默默无闻地上线了一年多之后，现在终于打算来好好聊聊关于手机摄像头测量心率的那些事。本文参考了很多前辈的文章，将在文末列出。&lt;/p&gt;</summary>
     
     
     
+    <category term="class1" scheme="http://example.com/categories/class1/"/>
+    
+    
+    <category term="none" scheme="http://example.com/tags/none/"/>
     
   </entry>
   
